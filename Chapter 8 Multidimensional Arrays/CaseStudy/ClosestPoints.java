@@ -33,7 +33,7 @@ class ClosestPoints
                 }
             }
         }
-
+        s.close();
         System.out.println("Shortest distance "+shortestDistance+" is between points ("+ points[p1][0] + "," + points[p1][1] + ") and ("+ points[p2][0] +","+ points[p2][1]+")");
     }
 
